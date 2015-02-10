@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/rl_home"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/iv_new_home"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="3dp"
+            android:src="@drawable/read_circle" />
+
+        <Button
+            android:id="@+id/btn_home"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/tab_home_selector"
+            android:clickable="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_encounter"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <Button
+            android:id="@+id/btn_encounter"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/tab_enconter_selector"
+            android:clickable="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_community"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <Button
+            android:id="@+id/btn_community"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/tab_community_selector"
+            android:clickable="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_message"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/iv_new_message"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="3dp"
+            android:src="@drawable/read_circle" />
+
+        <Button
+            android:id="@+id/btn_message"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/tab_message_selector"
+            android:clickable="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_user"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <Button
+            android:id="@+id/btn_user"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/tab_user_selector"
+            android:clickable="false" />
+    </RelativeLayout>
+
+</merge>
